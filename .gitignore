@@ -1,0 +1,29 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+
+# Generated build output and downloaded toolchains
+build/
+dist/
+out_all/
+out_trace/
+third_party/
+*.o
+*.a
+*.so
+*.dylib
+*.wasm
+
+# Per-game output, saves, analysis, and proprietary game material
+userdata/
+PORTING_LOG.md
+re/ghidra/
+recomp/data/functions.json
+*.rpa
+*.rpyc
+*.pck
+*.pak
+*.save
